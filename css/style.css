@@ -1701,8 +1701,9 @@ h1, h2, h3, h4, h5,
 
 .position-relative {
   position: relative; }
-.margin-right20{
-  margin-right:20px;
+
+.importantText{
+  color:red;
 }
 .experience {
   position: absolute;
