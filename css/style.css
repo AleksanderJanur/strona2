@@ -1705,6 +1705,9 @@ h1, h2, h3, h4, h5,
 .importantText{
   color:red;
 }
+.fa-ul{
+  font-size:16px !important;
+}
 .experience {
   position: absolute;
   bottom: -10px;
