@@ -1692,7 +1692,7 @@ h1, h2, h3, h4, h5,
   text-transform: uppercase; }
 
 .section-title {
-  color: #007bff;
+  color: #8fc04e;
   font-size: 40px;
   font-weight: 900; }
   @media (max-width: 991.98px) {
@@ -1701,7 +1701,9 @@ h1, h2, h3, h4, h5,
 
 .position-relative {
   position: relative; }
-
+.margin-right20{
+  margin-right:20px;
+}
 .experience {
   position: absolute;
   bottom: -10px;
@@ -1731,7 +1733,6 @@ h1, h2, h3, h4, h5,
   height: 43px; }
   .pricing .box {
   padding: 20px;
-  background: #f9f9f9;
   text-align: center;
   border-radius: 8px;
   position: relative;
