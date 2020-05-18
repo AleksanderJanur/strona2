@@ -1862,29 +1862,51 @@ h1, h2, h3, h4, h5,
 }
 .section-margin{
   text-align:left;
-  margin-left:170px;
+  padding-left:160px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .section-margin{
     text-align:left;
-    margin-left:140px;
+    padding-left:130px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .section-margin{
     text-align:left;
-    margin-left:110px;
+    padding-left:100px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .section-margin{
     text-align:left;
-    margin-left:100px;
+    padding-left:100px;
   }
 }
 @media (max-width: 576px) {
   .section-margin{
     text-align:left;
-    margin-left:80px;
+    padding-left:100px;
+  }
+}
+.short-text { display: none; }
+
+@media screen and (min-width: 992px) and (max-width: 1200px)  {
+    .short-text { display: inline-block; }
+    .full-text { display: none; }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+  .change-size{
+    font-size:20px;
+  }
+}
+.lead{
+  margin-top:100px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+  .lead{
+    margin-top:0px;
+    font-size:17px;
+    text-align:center;
+    text-align:left
   }
 }
